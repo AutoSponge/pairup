@@ -1,0 +1,19 @@
+{
+  "name": "pairup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple Slack slash command for Deque development teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Paul Grenier <paul.grenier@deque.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pretty-error": "^2.1.1",
+    "express": "^4.16.4",
+    "body-parser": "^1.19.0",
+    "tsscmp": "^1.0.6"
+  }
+}
